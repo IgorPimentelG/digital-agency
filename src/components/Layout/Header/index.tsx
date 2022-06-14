@@ -6,10 +6,10 @@ const Header = () => {
 			<Title>Digital Agency</Title>
 
 			<Nav>
-				<Link>home</Link>
-				<Link>about</Link>
-				<Link>testimonials</Link>
-				<Link>contact</Link>
+				<Link href="#container-head">home</Link>
+				<Link href="#container-main">about</Link>
+				<Link href="#container-testimonials">testimonials</Link>
+				<Link href="#banner-contact">contact</Link>
 			</Nav>
 		</Container>
 	);

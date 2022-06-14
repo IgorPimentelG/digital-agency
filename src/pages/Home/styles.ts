@@ -20,8 +20,7 @@ export const ContentHead = styled.div`
 
 export const ContentMain = styled.div`
 	width: 100%;
-	align-items: center;
-	justify-content: flex-end;
+	justify-content: space-around;
 `;
 
 export const ContainerInfo = styled.div`
@@ -56,6 +55,7 @@ export const Main = styled.main`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	background-image: radial-gradient(at right, rgba(142,173,213,0.4),  rgba(0,212,255,0) 60%);
 `;
 
 export const ContainerTestimonials = styled.div`

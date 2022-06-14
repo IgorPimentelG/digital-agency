@@ -4,7 +4,7 @@ import { Card, Content, Image, Label, Title } from "./styles";
 
 const CardBanner = () => {
 	return(
-		<Card>
+		<Card id="banner-contact">
 			<Image src={require("../../../assets/images/customer-support.png")}/>
 			<Content>
 				<Title>Be a part of the <br/>next big thing</Title>

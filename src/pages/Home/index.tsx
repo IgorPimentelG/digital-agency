@@ -22,7 +22,7 @@ import {
 const HomePage = () => {
 	return(
 		<RootContainer>
-			<ContainerHead>
+			<ContainerHead id="container-head">
 
 				<Header/>
 
@@ -50,22 +50,23 @@ const HomePage = () => {
 
 			<Companies/>
 
-			<Main>
-				<div>
-					<Image src={require("../../assets/images/designer-team-working-on-creative-design.png")}/>
-					<ContentMain>
-						<ContainerInfo>
-							<Title>Branding & Design <br/>System</Title>
-							<Label>
+			<Main id="container-main">
+				<ContentMain>
+					<Image
+						src={require("../../assets/images/designer-team-working-on-creative-design.png")}
+					/>
+
+					<ContainerInfo>
+						<Title>Branding & Design <br/>System</Title>
+						<Label>
 							Commonly used in the graphic, print & publishing industris<br/>
 							for previewing visual layout and<br/> mockups
-							</Label>
-							<BsArrowRight size={30}/>
-						</ContainerInfo>
-					</ContentMain>
-				</div>
+						</Label>
+						<BsArrowRight size={30}/>
+					</ContainerInfo>
+				</ContentMain>
 
-				<div>
+				<ContentMain>
 					<ContainerInfo>
 						<Title>Custome & Plugin <br/>Development</Title>
 						<Label>
@@ -74,12 +75,14 @@ const HomePage = () => {
 						</Label>
 						<BsArrowLeft size={30}/>
 					</ContainerInfo>
-					<Image src={require("../../assets/images/businessman-analyzing-data.png")}/>
-				</div>
+
+					<Image
+						src={require("../../assets/images/designer-team-working-on-creative-design.png")}
+					/>
+				</ContentMain>
 			</Main>
 
-
-			<ContainerTestimonials>
+			<ContainerTestimonials id="container-testimonials">
 
 				<LabelTestimonials>
 					testimonials
