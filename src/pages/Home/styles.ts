@@ -58,3 +58,19 @@ export const Main = styled.main`
 	width: 100%;
 `;
 
+export const ContainerTestimonials = styled.div`
+	flex-direction: column;
+	padding: 0 150px;
+`;
+
+export const TitleTestimonials = styled.h1`
+	text-align: center;
+	margin: 10px;
+	line-height: 35px;
+`;
+
+export const LabelTestimonials = styled.p`
+	font-size: 0.7rem;
+	text-align: center;
+	text-transform: uppercase;
+`;

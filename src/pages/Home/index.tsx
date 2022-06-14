@@ -1,6 +1,6 @@
 /* eslint-disable quotes */
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { Companies, Footer, Header } from "@components/Layout";
+import { CardBanner, CardTestimonial, Companies, Footer, Header } from "@components/Layout";
 import { Button } from "@components/UI";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 import {
@@ -13,7 +13,10 @@ import {
 	ContentHead,
 	ContainerImage,
 	Main,
-	ContentMain
+	ContentMain,
+	ContainerTestimonials,
+	TitleTestimonials,
+	LabelTestimonials
 } from "./styles";
 
 const HomePage = () => {
@@ -75,8 +78,35 @@ const HomePage = () => {
 				</div>
 			</Main>
 
-			<Label>TESTIMONIALS</Label>
-			<Title>Read what other<br/> have to say</Title>
+
+			<ContainerTestimonials>
+
+				<LabelTestimonials>
+					testimonials
+				</LabelTestimonials>
+				<TitleTestimonials>
+					Read What Other<br/>Have To Say
+				</TitleTestimonials>
+
+				<div>
+					<CardTestimonial
+						name="andrew rathore"
+						image="western-man-4975942-4159828 1.png"
+					/>
+
+					<CardTestimonial
+						name="vera duncan"
+						image="asian-woman-4975939-4159825 1.png"
+					/>
+
+					<CardTestimonial
+						name="mark smith"
+						image="black-woman-4975941-4159827 1.png"
+					/>
+				</div>
+			</ContainerTestimonials>
+
+			<CardBanner/>
 
 			<Footer/>
 		</RootContainer>
