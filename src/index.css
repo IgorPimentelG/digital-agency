@@ -1,29 +1,26 @@
 @font-face {
 	font-family: 'Inter Black';
-	src: url('./assets/fonts/Inter-Black.ttf') local('Inter Black');
+	src: url('./assets/fonts/Inter-Black.ttf');
 }
 
 @font-face {
 	font-family: 'Inter Regular';
-	src: url('./assets/fonts/Inter-Regular.ttf') local('Inter Regular');
+	src: url('./assets/fonts/Inter-Regular.ttf');
 }
 
 @font-face {
 	font-family: 'Inter SemiBold';
-	src: url('./assets/fonts/Inter-SemiBold.ttf') local('Inter SemiBold');
+	src: url('./assets/fonts/Inter-SemiBold.ttf');
 }
 
 * {
 	margin: 0;
 	padding: 0;
+	color: #272D38;
 }
 
 body {
-  margin: 0;
-}
-
-code {
-  font-family: 'Inter Regular', Consolas, 'Courier New', monospace;
+	font-family: 'Inter Regular', monospace;
 }
 
 div {
@@ -32,4 +29,11 @@ div {
 
 button {
 	cursor: pointer;
+	border: none;
 }
+
+a:hover {
+	color: #8EADD5;
+	cursor: pointer;
+}
+
